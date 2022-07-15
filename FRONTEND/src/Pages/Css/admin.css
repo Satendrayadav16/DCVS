@@ -1,0 +1,174 @@
+.adminAddress {
+    height: 5vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'PT-Sans', sans-serif;
+}
+
+.adminUpload {
+    height: 5vh;
+    border: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'PT-Sans', sans-serif;
+   
+}
+
+.adminUploadText {
+    height: 5vh;
+    border: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 1rem;
+    padding: 1px 140px;
+}
+
+.adminInput {
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 4px 2px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.AdminPage {
+    width: 1100px;
+    background: rgb(36 57  83 / 50%);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    color: white;  
+    justify-content: left;  
+    margin: auto;
+
+}
+
+.pubAddText {
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'PT-Sans', sans-serif;
+}
+ 
+.adminInputPubAdd {
+    size: auto;
+    font-size: 15px;
+    border-radius: 2px 0 0 2px;
+    padding: 10px 12px;
+}
+
+.adminSubmit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'PT-Sans', sans-serif;
+    border-radius: 2px 0 0 2px;
+} 
+
+.UploadDetailsText {
+    width: 500px;
+    background: rgb(9 12  16 / 90%);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+    padding: .5rem;
+    align-items: center;
+    text-align: center;
+    color: #f3bd19;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+}
+
+.sucessfullMessage {
+    width: 500px;
+    background: rgb(9 12  16 / 90%);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+    padding: .5rem;
+    align-items: center;
+    text-align: center;
+    color: #f3bd19;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+}
+
+.getDetailsDataButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'PT-Sans', sans-serif;
+    border-radius: 2px 0 0 2px;
+}
+
+.adminCertDetails {
+    height: 20vh;
+    width: 800px;
+    background: rgb(9 12  16 / 90%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 90%);     border-radius: 8px;
+    margin: auto;
+    padding: 15px 5px;
+
+}
+
+.aInfoTextP,
+.aInfoTextF,
+.aInfoTextI,
+.aInfoTextC,
+.aInfoTextT {
+    padding: 8px 5px;
+    align-items: center;
+    text-align: center;
+    color: #8E44AD;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 15px;
+    height: 2vh;
+}
+
+.aInfoDetailP,
+.aInfoDetailF,
+.aInfoDetailI,
+.aInfoDetailC,
+.aInfoDetailT {
+    padding: 8px 5px;
+    align-items: left;
+    text-align: left;
+    color: #199cf3;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 15px;
+    height: 2vh;
+    
+}

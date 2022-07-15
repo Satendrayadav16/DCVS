@@ -1,0 +1,232 @@
+.FileUpload {
+    width: 1100px;
+    background: rgb(36 57  83 / 50%);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 2rem;
+    align-items: left;
+    text-align: left;
+    color: white;  
+    justify-content: left;  
+    margin: auto;
+
+}
+
+.pid {
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'PT-Sans', sans-serif;
+}
+
+.uploading {
+    color: white;
+    font-size: 21px;
+    font-family: 'PT-Sans', sans-serif;
+    padding-left: 22px; 
+   
+}
+
+.fileInput {
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 4px 32px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+  
+}
+
+.inputType{
+    size: auto;
+    font-size: 15px;
+    border-radius: 2px 0 0 2px;
+    padding: 10px 13px;
+}
+
+
+.homeSubmit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'PT-Sans', sans-serif;
+    border-radius: 2px 0 0 2px;
+
+}
+
+
+
+.fileInput::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: .2em .8em;
+    border-radius: .2em;
+    background-color: #a29bfe;
+    transition: 1s;
+  }
+  
+.fileInput::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+  }
+
+
+.Filemessage {
+    width: 500px;
+    background: rgb(9 12  16 / 90%);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+    padding: .5rem;
+    align-items: center;
+    text-align: center;
+    color: #f3bd19;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+}
+
+.HASH {
+    margin: auto;
+    justify-content: center;
+}
+
+.iname {
+    width: 1000px;
+    background: rgb(28   40  51 / 100%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 90%);
+    padding: .5rem;
+    align-items: center;
+    text-align: center;
+    color: #8E44AD;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 15px;
+}
+
+.ivalue {
+    width: 1000px;
+    background: rgb(28 40  51 / 100%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+    padding: .5rem;
+    align-items: center;
+    text-align: center;
+    color: #199cf3;  
+    justify-content: left;  
+    margin: auto;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+
+.certificate {
+    position: relative;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'PT-Sans', sans-serif;
+
+
+}
+
+
+.navbar {
+    /* background: rgb(0 9 13 / 90%); */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+  
+  .container {
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-family: 'PT-Sans', sans-serif;
+  }
+  
+  .github-logo{
+    color: #fff;
+    justify-self:center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-icon {
+    margin-right: 0rem;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    /* justify-content: end; */
+  }
+  
+  .nav-item {
+    height: 80px;
+    border-bottom: 2px solid transparent;
+    align-items: center;
+    font-family: 'PT-Sans', sans-serif;
+    text-align: center;
+    display: flex;
+
+  }
+  
+  .nav-item:hover {
+    border-bottom: 6px solid #F95004;
+  }
+
+  .texts:hover{
+    color: #F8CB42;
+  }
+  
+  .nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    text-align: center;
+  }

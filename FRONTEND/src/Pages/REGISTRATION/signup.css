@@ -1,0 +1,81 @@
+.signUpLabel{
+    padding:30px;
+    font-weight:lighter;
+    text-transform:uppercase;
+    color:#ffffff;
+    margin: .5rem 10rem;
+}
+
+.signup{
+    position:relative;
+    top:50px;
+    left:35%;
+    display:block;
+    margin-bottom:80px;
+    width:500px;
+    height:600px;
+    background: rgb(16  35  69 / 70% );
+    border-radius:5px;
+    overflow:hidden;
+    z-index:1;
+}
+
+.signUpInfo {
+    display:block;
+    height:62px;
+    width:90%;
+    margin:0 auto;
+    border:none;
+    background: rgb(16  35  69 / 100% );
+}
+
+.signUpButton {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.8rem;
+    margin: .5rem 7.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'PT-Sans', sans-serif;
+    width: 250px;
+}
+
+.signUpInfo{
+    display:block;
+    height:50px;
+    width:90%;
+    margin: 0 auto;
+    border:none;
+    background: rgb(16  35  69 / 100% );
+
+}
+    .signUpInfo::placeholder{
+      -webkit-transform:translateY(0px);
+        transform:translateY(0px);
+        /* -webkit-transform:translateX(10px);
+        transform:translateX(10px); */
+      -webkit-transition:.5s;
+        transition:.5s;
+        padding: 0px 10px;
+    }
+    .signUpInfo:hover,
+    .signUpInfo:focus,
+    .signUpInfo:active:focus{
+      color:#ff5722;
+      outline:none;
+      border-bottom:1px solid #ff5722;
+    }
+    .signUpInfo:hover::placeholder,
+    .signUpInfo:focus::placeholder,
+      .signUpInfo:active:focus::placeholder{
+        color:#ff5722;
+        position:relative;
+        -webkit-transform:translateY(-10px);
+        transform:translateY(-10px);
+        
+      }

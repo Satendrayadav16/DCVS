@@ -1,0 +1,67 @@
+.getCertificate {
+  height: 5vh;
+  border: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'PT-Sans', sans-serif;
+  font-size: 3rem;
+
+}
+
+.userCertificate {
+  height: 5vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'PT-Sans', sans-serif;
+}
+
+.userCert {
+  background: #1877f2;
+    border: 1px solid #1877f2;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    margin: .5rem 7.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'PT-Sans', sans-serif;
+    width: 250px;
+    text-align: center;
+}
+
+.userButtonCert {
+  align-items: center;
+  display: inline-block;
+  justify-items: center;
+  padding: 0.8rem 32rem;
+}
+
+.downloadLink {
+  color: rgb(227, 241, 22);
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  text-align: center;
+  
+}
+
+.certificateDownloadUser:hover {
+  color: rgb(74, 74, 184);
+}
+
+.certificateDownloadUser {
+  padding: 0.8rem 41rem;
+}
+
+.viewPdf {
+  padding: 0.8rem 20rem;
+}
